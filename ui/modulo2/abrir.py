@@ -7,7 +7,7 @@ from PySide6.QtCore import QObject, Slot
 
 app = QGuiApplication()
 engine = QQmlApplicationEngine()
-engine.load('combo_box.qml')
+engine.load('test1.qml')
 
 
 app.exec()
